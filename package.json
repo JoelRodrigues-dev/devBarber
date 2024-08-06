@@ -1,0 +1,19 @@
+{
+  "name": "devBarber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JoelRodrigues-dev/devBarber.git",
+  "author": "Joel Rodrigues <joelp.rodrigues25@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev src/server.ts"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.4"
+  }
+}
